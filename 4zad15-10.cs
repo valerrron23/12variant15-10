@@ -5,10 +5,10 @@ namespace ConsoleApplication2
         static void Main(string[] args)
         {
             double x, y;
-            Console.WriteLine("Введите значение x="); //программа просит пользователя ввести значение переменной вещественного типа
-            x = Convert.ToDouble(Console.ReadLine()); //вывод переменной
-            y = Math.Tan(Math.Sqrt(Math.Log(Math.Pow(Math.E, x+1)))) - (3+Math.Sin(Math.Pow(x,2)))/(Math.Sin(Math.Pow(x,2)) - Math.Cos(Math.Pow(x,2))); // программа вычисляет введёные данные по формуле
-            Console.WriteLine("Результат: {0}", y); //вывод данных
+            Console.WriteLine("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ x="); //РїСЂРѕРіСЂР°РјРјР° РїСЂРѕСЃРёС‚ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ РІРІРµСЃС‚Рё Р·РЅР°С‡РµРЅРёРµ РїРµСЂРµРјРµРЅРЅРѕР№ РІРµС‰РµСЃС‚РІРµРЅРЅРѕРіРѕ С‚РёРїР°
+            x = Convert.ToDouble(Console.ReadLine()); //РІС‹РІРѕРґ РїРµСЂРµРјРµРЅРЅРѕР№
+            y = Math.Tan(Math.Sqrt(Math.Log(Math.Pow(Math.E, x+1)))) - (3+Math.Sin(Math.Pow(x,2)))/(Math.Sin(Math.Pow(x,2)) - Math.Cos(Math.Pow(x,2))); // РїСЂРѕРіСЂР°РјРјР° РІС‹С‡РёСЃР»СЏРµС‚ РІРІРµРґС‘РЅС‹Рµ РґР°РЅРЅС‹Рµ РїРѕ С„РѕСЂРјСѓР»Рµ
+            Console.WriteLine("Р РµР·СѓР»СЊС‚Р°С‚: {0}", y); //РІС‹РІРѕРґ РґР°РЅРЅС‹С…
             }
     }
 }
